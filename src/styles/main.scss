@@ -1,0 +1,22 @@
+@use 'themes/dark-theme';
+@use 'themes/light-theme';
+
+@use 'base/reset';
+
+@use 'layouts/_header';
+
+@use 'modules/__toggleLanguageButton';
+
+* {
+     transition: background-color 0.5s, color 0.5s;
+}
+   
+.dark-mode {
+     background-color: dark-theme.$background-primery-color;
+     
+}
+   
+.light-mode {
+     background-color: light-theme.$background-primery-color;
+     
+}

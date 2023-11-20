@@ -1,0 +1,77 @@
+.toggle-layout {
+    margin-top: 12px;
+    display: flex;
+}
+
+.en-text {
+    padding-top: 5px;
+    padding-right: 8px;
+    //color: none;
+    user-select: none;
+}
+
+.br-text {
+    padding-top: 5px;
+    padding-left: 8px;
+    user-select: none;
+}
+
+.toogle-component {
+    width: 2.875rem;
+    height: 1.5rem;
+    border-radius: 14px;
+}
+
+.circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.language-on-text {
+    color: white;
+}
+
+.language-off-text {
+    color: gray;
+}
+
+.toggle-bg-on {
+    background-color: green;
+    transition: background-color 500ms ease;
+}
+
+.toggle-bg-off {
+    background-color: gray;
+    transition: background-color 300ms ease;
+}
+
+.circle-direita {
+    float: right;
+    animation: left-to-right 200ms ease;
+}
+
+.circle-esquerda {
+    float: left;
+    animation: right-to-left 200ms ease;
+}
+
+@keyframes right-to-left {
+    0% {
+        margin-left: 25px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes left-to-right {
+    0% {
+        margin-right: 25px;
+    }
+    100% {
+        margin-right: 0px;
+    }
+}

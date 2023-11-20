@@ -1,0 +1,4 @@
+* concluir o mobile-first com base no site pronto no desktop
+
+* implementar a mudança de cor quando for mudado de EN para BR (de preto e verde para branco e laranja/vermelho)
+
